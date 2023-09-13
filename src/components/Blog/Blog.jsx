@@ -3,7 +3,7 @@ import { BsBookmarks } from 'react-icons/bs';
 
 const Blog = ({blog,handleAddToBookmark,handleMarkAsRead}) => {
     // console.log(blog);
-    const {title,cover,author,author_img,reading_time,posted_date,hashtags} = blog;
+    const {id,title,cover,author,author_img,reading_time,posted_date,hashtags} = blog;
     return (
         <div className='mb-20 space-y-4'>
             <img className='w-full mb-8' src={cover} alt={`Cover picture of the title ${title}`} />
@@ -26,7 +26,7 @@ const Blog = ({blog,handleAddToBookmark,handleMarkAsRead}) => {
                   hashtags.map((hash,idx)=><span key={idx}><a href="">{hash}</a></span>)  
                 }
             </p>
-            <button onClick={()=>handleMarkAsRead(reading_time)} className='font-bold text-purple-800 underline'>Mark as read</button>
+            <button onClick={()=>handleMarkAsRead(reading_time,id)} className='font-bold text-purple-800 underline'>Mark as read</button>
         </div>
     );
 };
