@@ -1,0 +1,43 @@
+[
+    {
+      "id": "12345",
+      "cover": "https://i.ibb.co/dgCBvwM/1.jpg",
+      "title": "The Secret World of Quantum Physics",
+      "author": "Sarah Johnson",
+      "author_img": "https://i.ibb.co/4MkDFw8/boy1.png",
+      "posted_date": "July 15, 2023",
+      "reading_time": 10,
+      "hashtags": ["#Science", "#QuantumPhysics", "#Exploration"]
+    },
+    {
+      "id": "67890",
+      "cover": "https://i.ibb.co/xYPfP9t/2.png",
+      "title": "The Art of Culinary Delights",
+      "author": "Michael Smith",
+      "author_img": "https://i.ibb.co/gWtZGqR/boy2.jpg",
+      "posted_date": "August 3, 2023",
+      "reading_time": 8,
+      "hashtags": ["#Cooking", "#Foodie", "#Recipes"]
+    },
+    {
+      "id": "24680",
+      "cover": "https://i.ibb.co/NV1v962/3.png",
+      "title": "Mastering the Stock Market",
+      "author": "John Williams",
+      "author_img": "https://i.ibb.co/sHPpx75/girl1.jpg",
+      "posted_date": "September 1, 2023",
+      "reading_time": 12,
+      "hashtags": ["#Finance", "#Investing", "#StockMarket"]
+    },
+    {
+      "id": "13579",
+      "cover": "https://i.ibb.co/wQ7bBn0/4.jpg",
+      "title": "Traveling Through Time: Historical Adventures",
+      "author": "Emily Turner",
+      "author_img": "https://i.ibb.co/p0J8Rqv/girl2.jpg",
+      "posted_date": "July 25, 2023",
+      "reading_time": 15,
+      "hashtags": ["#History", "#TimeTravel", "#Adventure"]
+    }
+  ]
+  
